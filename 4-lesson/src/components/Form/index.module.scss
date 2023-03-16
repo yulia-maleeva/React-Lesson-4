@@ -1,0 +1,32 @@
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  background-color: lightcyan;
+  border-radius: 8px;
+}
+
+.checkboxBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  input {
+    width: 30px;
+    height: 30px;
+  }
+
+  label {
+    font-size: 16px;
+    color: green;
+    opacity: 0.5;
+  }
+}
+
+.error {
+  font-weight: 700;
+  color: coral;
+  margin-top: 10px;
+}
